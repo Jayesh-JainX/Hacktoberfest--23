@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E1F2E1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the page takes at least the height of the viewport */
+}
+
+header {
+    background-color: #2E8B57;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff000; /* Yellow on hover */
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+article {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: scale(1.03);
+}
+
+h3 {
+    color: #2E8B57;
+}
+
+h4 {
+    color: #333;
+}
+
+article a {
+    color: #2E8B57;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+article a:hover {
+    color: #3CB371; /* Sea Green on hover */
+}
+
+/* Add a margin-top to push the footer to the bottom */
+footer {
+    margin-top: auto;
+    background-color: #2E8B57;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
