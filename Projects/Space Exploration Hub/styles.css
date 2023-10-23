@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/03/08/32/banner-1176676_960_720.jpg');
+    background-size: cover;
+    padding: 200px 0;
+    animation: headerAnimation 10s linear infinite alternate;
+}
+
+@keyframes headerAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav {
+    text-align: center;
+    background-color: #222;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.image {
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+}
+
+address {
+    font-style: normal;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    padding: 20px 0;
+}
+
+@keyframes headerAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.image.zoomed {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.image img {
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; 
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
+
