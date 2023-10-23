@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <title>Recipe Exchange Platform</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Recipe Exchange Platform</h1>
+    </header>
+    <main>
+        <section class="recipe-form">
+            <h2>Share Your Recipe</h2>
+            <form id="recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" name="recipe-name" required>
+
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" name="ingredients" required></textarea>
+
+                <label for="instructions">Cooking Instructions:</label>
+                <textarea id="instructions" name="instructions" required></textarea>
+
+                <button type="submit">Submit Recipe</button>
+            </form>
+        </section>
+        <section class="recipes">
+            <h2>Explore Recipes</h2>
+            <div id="recipe-list"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
