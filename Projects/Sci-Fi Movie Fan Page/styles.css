@@ -1,0 +1,100 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Background color for the entire page */
+    color: #fff; /* Text color */
+}
+
+header {
+    text-align: center;
+    background: url('header-background.jpg') center/cover; /* Updated header background */
+    padding: 4rem 0;
+    animation: fadeIn 2s; /* Add fade-in animation */
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+
+nav {
+    background-color: #222; /* Navigation background color */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.movie-card {
+    background-color: #444; /* Movie card background color */
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    animation: scaleIn 1s; /* Add scale-in animation */
+}
+
+@keyframes scaleIn {
+    0% { transform: scale(0.5); }
+    100% { transform: scale(1); }
+}
+
+/* Resize the movie card images */
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    width: 200px; /* Set a specific width */
+    height: 300px; /* Set a specific height */
+}
+
+.watch-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add button animation */
+}
+
+.watch-button:hover {
+    background-color: #e65c00;
+}
+
+footer {
+    text-align: center;
+    background-color: #222; /* Footer background color */
+    padding: 1rem;
+}
