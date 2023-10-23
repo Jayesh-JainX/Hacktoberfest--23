@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.search-bar {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.collectible {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.collectible img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    height: 150px;
+}
