@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <script src="script.js" defer></script>
+    <title>Adventure Travel Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Adventure Travel Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Our Adventure Travel Blog</h2>
+        <p>Explore the world's most thrilling destinations with us.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destination">
+            <img src="https://images.unsplash.com/photo-1589802829985-817e51171b92?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D" alt="Mountain Expedition">
+            <h3>Mountain Expedition</h3>
+            <p>Conquer the highest peaks and experience breathtaking views.</p>
+        </div>
+        <div class="destination">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhJTIwYmVhY2h8ZW58MHx8MHx8fDA%3D" alt="Beach Paradise">
+            <h3>Beach Paradise</h3>
+            <p>Relax on pristine beaches and soak up the sun.</p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-post">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAky-ABUD98N3n8iQT9Ko2xPU339GgiTRf3E4zTcoLw&s" alt="Adventures in the Andes">
+            <h3>Adventures in the Andes</h3>
+            <p>Read about our thrilling journey through the Andes mountains.</p>
+        </div>
+        <div class="blog-post">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc391jhMmRiuAOfTnHefObRefwDe_6fFVk_8B6i4_Uxw&s" alt="Island Hopping in Greece">
+            <h3>Island Hopping in Greece</h3>
+            <p>Discover the beauty of Greek islands and their rich history.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to share your travel experiences, feel free to contact us.</p>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Adventure Travel Blog</p>
+    </footer>
+</body>
+</html>
