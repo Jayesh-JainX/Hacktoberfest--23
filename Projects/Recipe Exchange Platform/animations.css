@@ -1,0 +1,12 @@
+
+button:hover {
+    background-color: #FFA500;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.recipe-card:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
