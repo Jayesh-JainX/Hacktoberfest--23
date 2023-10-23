@@ -1,0 +1,134 @@
+/* Your Enhanced CSS styles for the UFO Enthusiast Community site */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #03045e, #023e8a, #0098db);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    text-align: center;
+    padding: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+nav ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul.menu li a:hover {
+    color: #ff9800;
+}
+
+#hero {
+    background: url('ufo-background.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #ddd;
+    margin: 0;
+}
+
+.btn {
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #ff9800;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+.event-list li {
+    margin: 0 0 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.event-list h4 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #ff9800;
+}
+
+.event-list p {
+    font-size: 16px;
+    margin: 0;
+    color: #ddd;
+}
+
+footer {
+    text-align: center;
+    background: #000;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+}
