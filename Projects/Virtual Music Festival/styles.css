@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.featured-performers {
+    text-align: center;
+    padding: 2rem;
+}
+
+.featured-performers h2 {
+    font-size: 1.5rem;
+}
+
+.performer {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.performer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.event-details {
+    text-align: center;
+    padding: 2rem;
+}
+
+.event-details h2 {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.countdown {
+    text-align: center;
+    padding: 2rem;
+}
+
+.countdown h2 {
+    font-size: 1.5rem;
+}
+
+#countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#countdown-timer span {
+    font-size: 2rem;
+    margin: 0 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
