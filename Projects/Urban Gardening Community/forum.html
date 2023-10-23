@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum - Urban Gardening Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Community Forum</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#forum">Forum</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="forum-posts">
+            <h2>Recent Forum Posts</h2>
+            <div class="forum-post">
+                <h3>Topic 1: Best Practices for Organic Pest Control</h3>
+                <p>Posted by User123 - October 12, 2023</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+            <div class="forum-post">
+                <h3>Topic 2: Favorite Plants for Balcony Gardens</h3>
+                <p>Posted by GreenThumb - October 11, 2023</p>
+                <p>Nullam quis risus eget urna mollis ornare vel eu leo...</p>
+            </div>
+            <!-- Add more forum posts here -->
+        </section>
+        <section id="create-post">
+            <h2>Create a New Post</h2>
+            <form action="submit_post.php" method="post">
+                <label for="post-title">Post Title:</label>
+                <input type="text" id="post-title" name="post-title" required>
+                <label for="post-content">Post Content:</label>
+                <textarea id="post-content" name="post-content" rows="4" required></textarea>
+                <button type="submit">Submit Post</button>
+            </form>
+        </section>
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <h3>Product 1: Garden Tool Set</h3>
+                <p>A high-quality toolset for all your gardening needs.</p>
+                <p>Price: $29.99</p>
+            </div>
+            <div class="product">
+                <h3>Product 2: Organic Seeds Pack</h3>
+                <p>A pack of 20 organic seeds for your urban garden.</p>
+                <p>Price: $14.99</p>
+            </div>
+            <div class="product">
+                <h3>Product 3: Gardening Gloves</h3>
+                <p>Durable gloves to protect your hands while gardening.</p>
+                <p>Price: $9.99</p>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
