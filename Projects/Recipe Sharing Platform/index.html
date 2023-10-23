@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Sharing Platform</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Sharing Platform</h1>
+    </header>
+    <main>
+        <section class="recipe-form">
+            <h2>Share a Recipe</h2>
+            <form id="recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" required>
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" required></textarea>
+                <label for="instructions">Instructions:</label>
+                <textarea id="instructions" required></textarea>
+                <button type="submit">Share Recipe</button>
+            </form>
+        </section>
+        <section class="recipe-list">
+            <h2>Discover Recipes</h2>
+            <ul id="recipes">
+                <!-- Recipes will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
